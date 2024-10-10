@@ -17,3 +17,17 @@ header{
     .chamada-texto{
     padding-right : 6em;
     }
+ .categoria-vídeos{
+ display: flex; /*tornar flexível, maleável */
+ overflow: auto; /* para não transbordar para os lados*/
+ gap: 10px; /*cria um espaçamento entre os vídeos para não ficarem colado*/
+}
+categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria vídeos img {
+    opacity: 0,5;
+    height: 200 px;
+}
