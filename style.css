@@ -31,3 +31,7 @@ categoria {
     opacity: 0,5;
     height: 200 px;
 }
+.categoria-vídeos img:hover {
+opacity: 1,0;
+border: 3px solid rgb(46, 20, 196)
+}
