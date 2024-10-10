@@ -18,7 +18,13 @@ header {
     padding-right: 6em;
 }
 
-.categoria-vídeos {
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos {
     display: flex;
     /*tornar flexível, maleável */
     overflow: auto;
@@ -27,13 +33,7 @@ header {
     /*cria um espaçamento entre os vídeos para não ficarem colado*/
 }
 
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
-}
-
-.categoria vídeos img {
+.categoria-videos img {
     opacity: 0, 5;
     height: 200 px;
 }
