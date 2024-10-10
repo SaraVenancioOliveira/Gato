@@ -1,37 +1,44 @@
-header{
+header {
     background-color: #fc354c;
-    color:white;
-    padding:2%;
+    color: white;
+    padding: 2%;
     font-size: 40px;
-    }
-    
-    .chamada{
-    background:#29221f;
+}
+
+.chamada {
+    background: #29221f;
     padding-bottom: 2em;
     padding-top: 2em;
     color: #fcf7c5;
     display: flex;
-    justify-content : center;
-    }
-    
-    .chamada-texto{
-    padding-right : 6em;
-    }
- .categoria-vídeos{
- display: flex; /*tornar flexível, maleável */
- overflow: auto; /* para não transbordar para os lados*/
- gap: 10px; /*cria um espaçamento entre os vídeos para não ficarem colado*/
+    justify-content: center;
 }
-categoria {
+
+.chamada-texto {
+    padding-right: 6em;
+}
+
+.categoria-vídeos {
+    display: flex;
+    /*tornar flexível, maleável */
+    overflow: auto;
+    /* para não transbordar para os lados*/
+    gap: 10px;
+    /*cria um espaçamento entre os vídeos para não ficarem colado*/
+}
+
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
 }
+
 .categoria vídeos img {
-    opacity: 0,5;
+    opacity: 0, 5;
     height: 200 px;
 }
+
 .categoria-vídeos img:hover {
-opacity: 1,0;
-border: 3px solid rgb(46, 20, 196)
+    opacity: 1, 0;
+    border: 3px solid rgb(46, 20, 196)
 }
