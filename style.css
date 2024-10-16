@@ -43,6 +43,7 @@ header {
 .categoria-videos img:hover {
     opacity: 1, 0;
     border: 3px solid rgb(46, 20, 196)
+    background-color: #78ABA8
     
 }
 h2 videos de gatos{
