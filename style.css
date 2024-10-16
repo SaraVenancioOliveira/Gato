@@ -37,9 +37,11 @@ header {
 .categoria-videos img {
     opacity: 0, 5;
     height: 200px;
+    background-color: #78ABA8;
 }
 
 .categoria-videos img:hover {
     opacity: 1, 0;
     border: 3px solid rgb(46, 20, 196)
+    
 }
