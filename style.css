@@ -31,6 +31,7 @@ header {
     /* para não transbordar para os lados*/
     gap: 10px;
     /*cria um espaçamento entre os vídeos para não ficarem colado*/
+    background-color: #78ABA8;
 }
 
 .categoria-videos img {
